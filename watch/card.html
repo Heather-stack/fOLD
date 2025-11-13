@@ -10,14 +10,12 @@
         margin: 0;
         padding: 20px;
         text-align: center;
-        background: beige;
     }
     .card{
-        background: floralwhite;
+        background:bisque ;
         border-radius: 8px;
         box-shadow: 0 4px 6px ;
         transition: transform 0.9;
-        
     }
     .card img{
         width: 50%;
@@ -29,10 +27,10 @@
         transition-duration: 0.7s;
         padding: 15px;
         border-radius: 2pc 8px;
+        background: beige;
     }
     .card:hover{
         box-shadow:8px 6px;
-        transform: scale(1.02);
     }
     .text-container h3{
         margin: 0 0 10px;
@@ -41,11 +39,19 @@
         color: blue;
         font-size: 14px;
     }
+    h1{
+        background: linear-gradient(to left, bisque,beige);
+    }
+    .card-container{
+        display: flex;
+        gap: 20px;
+        align-self: center;
+    }
     </style>
 </head>
 <body>
     <h1>GALLERY</h1>
-    <div class="gallery">
+        <div class="card-contaier">
     <div class="card">
         <img src="images/oba.jpg" alt="">
         <div class="text-container">
