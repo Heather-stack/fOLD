@@ -22,7 +22,7 @@ input, button{
     margin-left: 35%;
     margin-top: 5%;
     padding-top: 2%;
-    box-shadow: 4px 0 8px 0 rgba(0,0,0.3);
+    box-shadow: 4px 0 8px 0 rgba(0, 0, 0.3);
     border-radius: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition: 0.3s ease-in-out;
@@ -43,6 +43,6 @@ a{
 }
 input:hover{
    margin: 15px;
-   border: blue;
+   border: 1px solid blue;
 
 }
